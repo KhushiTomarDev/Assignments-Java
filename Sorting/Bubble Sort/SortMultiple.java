@@ -36,7 +36,7 @@ public class SortMultiple {
 //
 
                 int k = 0;
-                while (k < 3) {
+                while (k < arr[j].markn.length) {
                     if (arr[j].markn[k] > arr[j + 1].markn[k]) {
                         swap = true;
                         break;

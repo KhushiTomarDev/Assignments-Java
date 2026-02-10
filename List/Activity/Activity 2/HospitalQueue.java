@@ -16,6 +16,7 @@ public class HospitalQueue {
 
         // Emergency patient at first position
         queue.addFirst("Emergency Patient");
+        System.out.println("Current Queue: " + queue);
 
         // Remove 2 patients after treatment
         queue.remove();

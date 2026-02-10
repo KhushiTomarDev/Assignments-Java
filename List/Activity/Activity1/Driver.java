@@ -1,3 +1,4 @@
+package List.Activity.Activity1;
 public class Driver{
     public static void main(String[] args) {
         SinglyLinkedList s1 = new SinglyLinkedList();
@@ -5,6 +6,8 @@ public class Driver{
         s1.insertAtBeginning(24);
         s1.insertAtLast(76);
         s1.insertAtLast(45);
+        s1.traverse();
+        s1.reverse();
         s1.traverse();
     }
 }
@@ -36,6 +39,31 @@ class SinglyLinkedList {
             temp=temp.next;
         }
         System.out.println("Null");
+    }
+    boolean search(int key) {
+        Node temp = head;
+        while (temp != null) {
+            if (temp.data == key) {
+                return true;
+            }
+            temp = temp.next;
+        }
+        return false;
+    }
+
+    // Reverse (Challenge)
+    void reverse() {
+        Node prev = null;
+        Node current = head;
+        Node next;
+
+        while (current != null) {
+            next = current.next;
+            current.next = prev;
+            prev = current;
+            current = next;
+        }
+        head = prev;
     }
 
 

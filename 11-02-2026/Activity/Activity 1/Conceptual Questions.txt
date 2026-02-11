@@ -1,0 +1,39 @@
+CONCEPTUAL QUESTIONS
+
+--------------------------------------------------------------
+
+1. Define Stack and explain LIFO principle.
+
+A Stack is a linear data structure in which insertion and deletion of elements take place only at one end called TOP.
+
+Stack follows the LIFO (Last In First Out) principle, which means the element inserted last is removed first.
+
+----------------------------------------------------------------
+
+2. What is Stack Overflow and Stack Underflow?
+
+Stack Overflow occurs when we try to push an element into a full stack.
+
+Stack Underflow occurs when we try to pop an element from an empty stack.
+
+----------------------------------------------------------------
+
+3. Write real-life examples of Stack.
+
+1. Stack of plates
+2. Undo and Redo operations
+3. Browser back button
+4. Function call stack in recursion
+5. Pile of books
+
+---------------------------------------------------------------
+
+4. What is the time complexity of Push and Pop operations?
+
+The time complexity of Push is O(1).
+The time complexity of Pop is O(1).
+The time complexity of Peek is also O(1).
+
+These operations take constant time because they are performed only at the TOP of the stack.
+
+----------------------------------------------------------------

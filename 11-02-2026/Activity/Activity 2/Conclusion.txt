@@ -1,0 +1,8 @@
+CONCLUSION
+
+Stack is a linear data structure that follows LIFO principle.
+It is widely used in function calls, expression evaluation,
+undo/redo operations, and syntax checking.
+Push and Pop operations are efficient with O(1) complexity.
+Understanding stack helps solve many real-world problems efficiently.
+
